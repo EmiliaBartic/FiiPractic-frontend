@@ -1,0 +1,33 @@
+#body {
+  background-color: #75d0e0;
+}
+
+#text {
+  color: black;
+  font-weight: 500;
+}
+#form-login {
+  background-color: #75d0e0;
+  width: 500px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 60px;
+}
+#btn-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #14515c;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+#btn-submit:hover {
+  color: #14515c;
+  background-color: white;
+}

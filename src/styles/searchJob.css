@@ -1,0 +1,311 @@
+.searchJob {
+  width: 100%;
+  height: 100%;
+}
+
+.searchJob .searchJob__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.searchJob .searchJob__container__search {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  border-radius: 15px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #3897f2;
+}
+
+.searchJob .searchJob__container__search__searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.searchJob .searchJob__container__search__searchBar #faMagnifyingGlass,
+.searchJob .searchJob__container__search__searchBar #faLocationDot {
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #3897f2;
+  font-size: 25px;
+}
+
+.searchJob .searchJob__container__search__searchBar #SearchInput {
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 40vw;
+  border: 1px solid #3897f2;
+}
+
+@media only screen and (max-width: 1024px) {
+  .searchJob .searchJob__container__search__searchBar #SearchInput {
+    width: 60%;
+  }
+}
+
+.searchJob .searchJob__container__search__searchBar #CountryInput {
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 30vw;
+  border: 1px solid #3897f2;
+}
+
+@media only screen and (max-width: 1024px) {
+  .searchJob .searchJob__container__search__searchBar #CountryInput {
+    width: 20%;
+  }
+}
+
+.searchJob .searchJob__container__search__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.searchJob .searchJob__container__search__inputs select {
+  padding: 10px;
+  border: 1px solid #3897f2;
+  border-radius: 10px;
+  color: #3897f2;
+}
+
+.searchJob .searchJob__container__search #filterBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.searchJob .searchJob__container__results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .searchJob {
+    width: 100%;
+    height: 100%;
+  }
+  .searchJob .searchJob__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 20px;
+    margin-top: 40px;
+  }
+  .searchJob .searchJob__container__search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #e7f3fd;
+    border: 2px solid #3897f2;
+  }
+  .searchJob .searchJob__container__search__searchBar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .searchJob .searchJob__container__search__searchBar__element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .searchJob .searchJob__container__search__searchBar__element #faMagnifyingGlass,
+  .searchJob .searchJob__container__search__searchBar__element #faLocationDot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin: auto;
+    color: #3897f2;
+    font-size: 25px;
+  }
+  .searchJob .searchJob__container__search__searchBar__element #SearchInput {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 80%;
+    border: 1px solid #3897f2;
+  }
+  .searchJob .searchJob__container__search__searchBar__element #CountryInput {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px 5px;
+    width: 80%;
+    border: 1px solid #3897f2;
+  }
+  .searchJob .searchJob__container__search__inputs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+  }
+  .searchJob .searchJob__container__search__inputs select {
+    padding: 10px;
+    border: 1px solid #3897f2;
+    border-radius: 10px;
+    color: #3897f2;
+    margin-bottom: 5px;
+  }
+  .searchJob .searchJob__container__search #filterBtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .searchJob .searchJob__container__results {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=searchJob.css.map */

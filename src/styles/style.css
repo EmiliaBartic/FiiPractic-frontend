@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+.App{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: "Titillium Web", sans-serif;
+}
+@media only screen and (max-width: 1024px){
+    *{font-size: 15px !important;}
+}
+.styleForBody{
+    background:"#75D0E0";
+    position:absolute; 
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+} 
+/* NAVBAR */
+.navbar{  
+    background-color: #00802B;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+    max-width: 100vw;
+}
+.home-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin:auto;
+}
+.nav-btn {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	visibility: hidden;
+	opacity: 0;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin:auto;
+}
+.nav-links .link{
+    margin-left:30px;
+}
+.link-text{
+    cursor: pointer;
+    margin-left:15px;
+    color: white;
+    text-decoration: none;
+}
+.link-text:hover{
+    color: #0a1343;
+    font-weight: 600;
+}
+#icon-house{
+    color: white;
+    font-size: 26px;
+}
+.icon-navbar{
+    color: white;
+    font-size: 20px;
+}
+
+.header-app{
+    width: 100%;
+    height: auto;
+    /* max-height: 50vh; */
+} 
+
+#btn-submit{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    margin:auto;
+    background-color: #14515C; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  #btn-submit:hover{
+    color: #14515C;
+    background-color:white;
+  }
+
+  #title-jobs-for-you{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+
+@media only screen and (max-width: 1024px) {
+    .navbar{
+        height: 50px;
+        width: auto;
+        max-width: 100%; 
+    }
+    .home-btn{
+        margin-left: 5px;
+    }
+
+    .nav-btn {
+		visibility: visible;
+		opacity: 1;
+        /* margin-right: 10px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin: auto;
+        margin-right: 10px;
+	}
+    .nav-links{
+        position: fixed;
+		top: 0;
+		left: 0;
+		height: auto;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+        margin: auto;
+		background-color: #00802B;
+		transition: 1s;
+		transform: translateY(-100vh);
+    }
+    .link{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+          
+    }
+    .responsive_nav {
+		transform: none;
+	}
+    .nav-close-btn {
+        position: relative;
+        margin-top:10px;
+	}
+    
+}

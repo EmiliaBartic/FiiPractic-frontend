@@ -1,0 +1,67 @@
+.companyRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  .text_c {
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .text {
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+  }
+  &__formLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  #btn-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #35e882;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  #btn-submit:hover {
+    color: #14515c;
+    background-color: white;
+    border: 1px solid #14515c;
+  }
+
+  #btn-submit-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #7186eb;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  #btn-submit-login:hover {
+    color: #7186eb;
+    background-color: white;
+    border: 1px solid #7186eb;
+  }
+}

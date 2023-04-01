@@ -1,0 +1,892 @@
+.profile {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+
+.profile-container .profile-name-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("../images/header-app.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #7186eb;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.profile-container .profile-name-picture .profile-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile-container .profile-name-picture .profile-picture .profile-picture-img {
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.profile-container .profile-name-picture .profile-picture button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.profile-container .profile-name-picture .profile-picture button .faCameraProfile {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px auto;
+}
+
+.profile-container .profile-name-picture .profile-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-container .profile-description {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #3897f2;
+  border-radius: 15px;
+}
+
+.profile-container .profile-available-jobs-with-title {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.profile-container .profile-skills-with-title,
+.profile-container .profile-education-with-title,
+.profile-container .profile-experience-with-title,
+.profile-container .profile-saved-jobs-with-title {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+}
+
+.profile-container .profile-skills-with-title h3,
+.profile-container .profile-skills-with-title h4,
+.profile-container .profile-education-with-title h3,
+.profile-container .profile-education-with-title h4,
+.profile-container .profile-experience-with-title h3,
+.profile-container .profile-experience-with-title h4,
+.profile-container .profile-saved-jobs-with-title h3,
+.profile-container .profile-saved-jobs-with-title h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-container .profile-skills-with-title .profile-skills,
+.profile-container .profile-skills-with-title .profile-education,
+.profile-container .profile-skills-with-title .profile-experience,
+.profile-container .profile-education-with-title .profile-skills,
+.profile-container .profile-education-with-title .profile-education,
+.profile-container .profile-education-with-title .profile-experience,
+.profile-container .profile-experience-with-title .profile-skills,
+.profile-container .profile-experience-with-title .profile-education,
+.profile-container .profile-experience-with-title .profile-experience,
+.profile-container .profile-saved-jobs-with-title .profile-skills,
+.profile-container .profile-saved-jobs-with-title .profile-education,
+.profile-container .profile-saved-jobs-with-title .profile-experience {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.profile-container .profile-skills-with-title .profile-skills-buttons Button,
+.profile-container .profile-education-with-title .profile-skills-buttons Button,
+.profile-container .profile-experience-with-title .profile-skills-buttons Button,
+.profile-container .profile-saved-jobs-with-title .profile-skills-buttons Button {
+  margin: 10px;
+}
+
+.profile-container .profile-skills-with-title .profile-available-jobs,
+.profile-container .profile-education-with-title .profile-available-jobs,
+.profile-container .profile-experience-with-title .profile-available-jobs,
+.profile-container .profile-saved-jobs-with-title .profile-available-jobs {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  margin: auto;
+}
+
+.profile-container .profile__cv {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #35e882;
+  border-radius: 15px;
+}
+
+.profile-container .profile-recom-users-with-title {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+}
+
+.profile-container .profile-recom-users-with-title h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile-container .profile-recom-users-with-title .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended {
+  border: 1px solid #7186eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended .matchedSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended .matchedSkills .matchedSkill {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  font-style: italic;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #7be247;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended .notMatchedSkills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended .notMatchedSkills .notMatchedSkill {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  font-style: italic;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 2px solid #e26247;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #3897f2;
+  border: 1px solid #3897f2;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.profile-container .profile-recom-users-with-title .users .user-recommended button:hover {
+  background-color: whitesmoke;
+  color: #3897f2;
+}
+
+.modal-bootstrap .modal-body form {
+  padding: 20px;
+}
+
+.modal-bootstrap .modal-body form #emailText {
+  border: 1px solid #7186eb;
+  padding: 5px;
+  width: 20vw;
+  height: auto;
+}
+
+.skill-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+  margin: 10px;
+  min-width: 80px;
+}
+
+.skill-container h3 {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill-container .skill-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill-container .skill-buttons .button-delete-skill {
+  background-color: #ff6666;
+  border: none;
+  color: wheat;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.skill-container .skill-buttons .button-delete-skill:hover {
+  background-color: white;
+  color: #ff6666;
+}
+
+.profile-education-with-title {
+  margin: 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+}
+
+.profile-education-with-title h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-education-with-title .profile-education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.profile-education-with-title .profile-education .education-element-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+  min-width: 100%;
+}
+
+.profile-education-with-title .profile-education .education-element-container h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.profile-education-with-title .profile-education .education-element-container .education-buttons-and-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-education-with-title .profile-education .education-element-container .education-buttons-and-time h6 {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.profile-education-with-title .profile-education .education-element-container h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.profile-education-with-title .profile-education .education-element-container .educ-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-education-with-title .profile-education .education-element-container .educ-buttons .button-delete-educ {
+  background-color: #ff6666;
+  border: none;
+  color: wheat;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.profile-education-with-title .profile-education .education-element-container .educ-buttons .button-delete-educ:hover {
+  background-color: white;
+  color: #ff6666;
+}
+
+.profile-experience-with-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: auto;
+}
+
+.profile-experience-with-title h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.profile-experience-with-title .profile-experience {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px auto;
+  padding: 15px;
+  background-color: #e7f3fd;
+  border: 2px solid #00802b;
+  border-radius: 15px;
+  min-width: 100%;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .full-rounded-btn {
+  background-color: #5bc0de;
+  border: none;
+  color: white;
+  padding: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 100%;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .full-rounded-btn:hover {
+  background-color: white;
+  color: #5bc0de;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .exp-delete-btn {
+  background-color: #ff6666;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 3px;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .exp-delete-btn:hover {
+  background-color: white;
+  color: #ff6666;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .exp-edit-btn {
+  background-color: #5cb85c;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .exp-edit-btn:hover {
+  background-color: white;
+  color: #5cb85c;
+}
+
+.profile-experience-with-title .profile-experience .experience-element-container .experience-element-container-details .experience-element-container-details-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal-body .selection-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  padding: 10px;
+}
+
+.modal-body .selection-skills p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.modal-body .selection-skills label {
+  margin-bottom: 5px;
+}
+
+.modal-body .experiences {
+  white-space: pre-wrap;
+  padding: 5px;
+}
+
+.wide-modal {
+  min-width: 40vw;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-container .profile-recom-users-with-title .users {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .modal-bootstrap .modal-body form {
+    padding: 20px;
+  }
+  .modal-bootstrap .modal-body form #emailText {
+    border: 1px solid #7186eb;
+    padding: 5px;
+    width: 60vw;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=profile.css.map */

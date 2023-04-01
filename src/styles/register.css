@@ -1,0 +1,143 @@
+.registerPage {
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background: #00802b;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 128, 43, 0.821166)), color-stop(40%, rgba(0, 128, 43, 0.569065)), to(#d9d8d4));
+  background: linear-gradient(180deg, rgba(0, 128, 43, 0.821166) 0%, rgba(0, 128, 43, 0.569065) 40%, #d9d8d4 100%);
+}
+
+.registerPage .register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80vw;
+  margin: auto;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  border: 1px solid #75f0aa;
+  border-radius: 15px;
+  background-image: url("../images/backgroundGuest.jpg");
+}
+
+.registerPage .register .form-register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.registerPage .register .form-register .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.registerPage .register .form-register .form-label-register {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.registerPage .register .form-register .submit-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  background-color: #00802b;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.back-to-login-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  background-color: #8ab3f5;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.back-to-login-btn:hover {
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=register.css.map */

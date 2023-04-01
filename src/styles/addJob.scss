@@ -1,0 +1,118 @@
+.addJobContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #35e882;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 20px;
+    width: 100%;
+    &__element {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      .title_label {
+        margin-top: 10px;
+        font-weight: 600;
+        width: auto;
+      }
+      .element-input {
+        border: 1px solid #a3f5c7;
+        border-radius: 10px;
+        padding: 10px;
+        width: 90%;
+        margin-bottom: 10px;
+      }
+      .element-input:focus {
+        outline: none;
+        border: 1px solid #35e882;
+        background-color: #d1fae3;
+      }
+
+      .selection-skills{
+        display: flex;
+        flex-direction: column;
+    
+        .skills-division-with-title{
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+          p{
+            font-weight: 500;
+           
+          }
+          .skills-division{
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+            flex-wrap: wrap;
+            label{
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+
+     
+
+      &__level { 
+        display: flex;
+        flex-direction: row;
+        input {
+          margin-left: 30px;
+        }
+        .label_for_input {
+          margin-left: 10px;
+        }
+      }
+
+      &__workTime {
+        display: flex;
+        flex-direction: row;
+        input {
+          margin-left: 30px;
+        }
+        .label_for_input {
+          margin-left: 10px;
+        }
+      }
+    }
+    #job_requirements,
+    #job_description,
+    #job_responsibilities {
+      height: 20vh;
+      padding: 10px;
+    }
+  }
+  #btn-submitJob {
+    margin-top: 20px;
+    color: black;
+    background-color: #35e882;
+    border: 1px solid #35e882;
+  }
+  #btn-submitJob:hover {
+    background-color: white;
+    color: #35e882;
+  }
+}
+
+@media only screen and (max-width:1024px) {
+  .addJobContainer__form__element__level,.addJobContainer__form__element__workTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    .elem{
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
