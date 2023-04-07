@@ -879,6 +879,26 @@
             align-items: center;
     margin: auto;
   }
+  .profile-container .profile-skills-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+  .profile-container .profile-skills-buttons Button {
+    margin: 10px;
+  }
   .modal-bootstrap .modal-body form {
     padding: 20px;
   }

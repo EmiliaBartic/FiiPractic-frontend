@@ -40,14 +40,14 @@ export default function PDescription({
 
       <GithubContainer githubLink={githubLink} setGithubLink={setGithubLink} showAddGithub={showAddGithub} user_id={user_id} token={token} handleCloseGithub={handleCloseGithub} />
       
-      <div className="flex flex-row w-full justify-evenly items-center">
-        <Button variant="dark" onClick={handleShowGithub}>
+      <div className="flex flex-col lg:flex-row w-full justify-evenly items-center">
+        <Button variant="dark" onClick={handleShowGithub} className="mb-3">
           Add/Edit Github Link
         </Button>
-        <Button variant="success" onClick={handleShowDescription}>
+        <Button variant="success" onClick={handleShowDescription} className="mb-3">
           Add/Edit Description
         </Button>
-        <Button variant="primary" onClick={handleShowLinkedIn}>
+        <Button variant="primary" onClick={handleShowLinkedIn} className="mb-3">
           Add/Edit LinkedInLink
         </Button>
       </div>

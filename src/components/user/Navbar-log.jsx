@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import {
   faMagnifyingGlass,
+  faClipboardQuestion,
   faUser,
   faArrowRightToBracket,
   faHouseLaptop,
@@ -41,6 +42,13 @@ const NavbarLog = () => {
             <FontAwesomeIcon icon={faCircleQuestion} id="icon-search" />
             <Link to="/help-user" className="link-text">
               Help
+            </Link>
+          </div>
+
+          <div className="link">
+            <FontAwesomeIcon icon={faClipboardQuestion} id="icon-search" />
+            <Link to="/prepare_for_interview" className="link-text">
+              Prepare
             </Link>
           </div>
 

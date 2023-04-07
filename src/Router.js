@@ -16,6 +16,7 @@ import CProfile from './pages/company/CProfile'
 import SearchCompany from './pages/user/SearchCompany'
 import ProfileFromCompany from './pages/company/ProfileFromCompany'
 import Help from './pages/general/Help'
+import PrepareInterview from './pages/user/PrepareInterview'
 
 const styleForBody = {
   position: 'absolute',
@@ -89,6 +90,10 @@ const routesUser = createBrowserRouter([
   {
     path: '/help-user',
     element: <Help isCompany={false} hasNavbar={true} />
+  },
+  {
+    path:'/prepare_for_interview',
+    element : <PrepareInterview />
   },
   {
     path: '/',

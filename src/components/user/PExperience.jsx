@@ -93,6 +93,7 @@ export default function PExperience({
         .then((response) => {
           if (response.data == "log in again") alert("Please log in again");
           else {
+            setExperienceRecommendation("");
             let newstring = response.data.replace(/(\r\n|\n|\r|:)/gm, " ");
             let string = newstring.replace(/\. /g, "\n");
             // /\n(\w+(\s)*)+(-|:)*(\s)*(\w+(\s)*)+(–)*\s(\w+(\s)*)(\d)*/g

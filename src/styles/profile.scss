@@ -505,6 +505,18 @@
         margin: auto;
       }
     }
+    .profile-skills-buttons {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: auto;
+      Button{
+        margin: 10px;
+        
+      }
+    }
   }
 
   .modal-bootstrap .modal-body form {
